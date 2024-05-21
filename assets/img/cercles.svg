@@ -1,0 +1,23 @@
+<svg width="1440" height="1440" viewBox="0 0 1440 1440" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M1440 1440L1440 0L0 0L0 1440L1440 1440Z" fill="#F0FAF0" />
+    <g style="mix-blend-mode:difference">
+        <path d="M720 0L0 0L0 1440L720 1440L720 0Z" fill="#FADF58" />
+    </g>
+    <g style="mix-blend-mode:difference">
+        <path d="M720 0L0 0L0 1440L720 1440L720 0Z" fill="#FADF58" />
+    </g>
+    <g style="mix-blend-mode:difference">
+        <path d="M1440 0L0 0L0 1440L1440 1440L1440 0Z" fill="#8BCFB0" />
+    </g>
+    <g style="mix-blend-mode:overlay">
+        <path
+            d="M720 0C322 0 0 322 0 720C0 1117 322 1440 720 1440C1117 1440 1440 1117 1440 720C1440 322 1117 0 720 0Z"
+            fill="#FADF58" />
+    </g>
+    <g style="mix-blend-mode:overlay">
+        <path
+            d="M720 360C521 360 360 521 360 720C360 918 521 1080 720 1080C918 1080 1080 918 1080 720C1080 521 918 360 720 360Z"
+            fill="#FADF58" />
+    </g>
+</svg>
