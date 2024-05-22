@@ -13,6 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Téléverser l'artéfact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
   deploy:
     name: Déployer le site
     needs: build
