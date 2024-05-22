@@ -36,6 +36,7 @@ body::-webkit-scrollbar {
 
 #section-video .logo {
   position: absolute;
+  width: 28%;
 }
 
 .parallax {
@@ -86,7 +87,7 @@ body::-webkit-scrollbar {
   letter-spacing: 0.0375rem;
   text-transform: uppercase;
   margin-top: 2.41rem;
-  margin-bottom: 7.59rem;
+  margin-bottom: 3.59rem;
 }
 
 #on-avance-section .text-container {
@@ -138,6 +139,9 @@ body::-webkit-scrollbar {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
 }
 
 #infolettre .texte-container {
@@ -145,15 +149,15 @@ body::-webkit-scrollbar {
   align-content: center;
   flex-wrap: wrap;
   color: #000;
-  font-size: 2.1875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.5rem;
 }
 
 #infolettre object {
   min-width: 0;
   width: 100%;
+}
+
+#infolettre .subscribe-container {
+  height: 675px;
 }
 
 #enweye-donc {
@@ -192,7 +196,44 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+
   .moitie-moitie {
     flex-direction: column;
+  }
+
+  #infolettre iframe {
+    flex: 610px;
+  }
+}
+
+@media (max-width: 425px) {
+  button {
+    padding: 0.75rem;
+  }
+
+  #on-avance-section,
+  #non-partisan,
+  #infolettre {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  #infolettre iframe {
+    flex: 700px;
+  }
+
+  iframe {
+    height: 670px;
+  }
+}
+
+@media (max-width: 320px) {
+  #infolettre iframe {
+    flex: 800px;
   }
 }
