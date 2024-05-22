@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
 #on-avance-section .arrow-container {
   display: flex;
   justify-content: center;
-  padding-top: 2.87rem;
+  padding-top: 0.87rem;
   padding-bottom: 2.87rem;
 }
 
@@ -129,6 +129,16 @@ body::-webkit-scrollbar {
   letter-spacing: 0.0375rem;
   text-transform: uppercase;
   margin-top: 2.41rem;
+}
+
+#oui-quebec {
+  background-image: url(assets/img/arriere-plan.png);
+  background-size: cover;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #infolettre {
