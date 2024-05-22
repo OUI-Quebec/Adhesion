@@ -154,6 +154,8 @@ body::-webkit-scrollbar {
 #infolettre object {
   min-width: 0;
   width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #infolettre .subscribe-container {
@@ -204,14 +206,16 @@ body::-webkit-scrollbar {
     flex-direction: column;
   }
 
-  #infolettre iframe {
-    flex: 610px;
+  #infolettre .subscribe-container {
+    flex: 625px;
   }
 }
 
 @media (max-width: 425px) {
   button {
     padding: 0.75rem;
+    height: 4.25rem;
+    font-size: 1rem;
   }
 
   #on-avance-section,
@@ -222,18 +226,10 @@ body::-webkit-scrollbar {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  #infolettre iframe {
-    flex: 700px;
-  }
-
-  iframe {
-    height: 670px;
-  }
 }
 
 @media (max-width: 320px) {
-  #infolettre iframe {
+  #infolettre .subscribe-container {
     flex: 800px;
   }
 }
