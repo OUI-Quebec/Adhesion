@@ -27,7 +27,7 @@ body {
   background: #f0faf0;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 html::-webkit-scrollbar,
@@ -140,11 +140,19 @@ body::-webkit-scrollbar {
 #oui-quebec {
   background-image: url(assets/img/arriere-plan.png);
   background-size: cover;
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
   height: 40rem;
   display: flex;
   flex-direction: column;
+}
+
+#oui-quebec > * {
+  display: flex;
+  gap: 4rem;
+}
+
+#oui-quebec > * > * {
+  position: relative;
+  left: 0px;
 }
 
 #infolettre {
